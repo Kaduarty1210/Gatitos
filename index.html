@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+ <title>Página de Gatitos</title>
+ <meta charset="UTF-8">
+ <link href="estilos.css" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@500&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+ <h1>Página de Gatitos</h1>
+
+ <h3>Imágenes de Gatitos</h3>
+ <!--Imagen desde internet-->
+ <img src="https://verdecora.es/blog/wp-content/uploads/2016/12/gato-siames-caracter-historia.jpg.webp">
+ 
+ <!--Imágen desde computadora-->
+ <img src="imagenes/gato.jpg">
+ <!--Crear enlaces externos-->
+ <p>Si quieres ver más imagénes de gatitos, <a href="https://unsplash.com/es/s/fotos/gato-siames" target="_blank">da click en este enlace.</a>.</p>
+
+ <h3>Listas de Gatitos</h3>
+
+ <p>3 cosas que los gatitos <strong>aman</strong></p>
+
+ <!--Lista ordenada-->
+ <ol> <!--Ordered list-->
+ <li>Dormir.</li> <!--List item-->
+ <li>Comer.</li>
+ <li>Jugar.</li>
+ </ol>
+
+ <p>3 cosas que los gatitos <i>odian</i></p>
+
+ <!--Lista desordenada-->
+ <ul> <!--Unordered list-->
+    <li>Bañarse.</li>
+    <li>Personas.</li>
+    <li>Caricias.</li>
+ </ul>
+
+ <!--Formularios-->
+ <form>
+     <!--Form con botones de radio-->
+     <p>¿Tu gatito es cachorro o es adulto?</p>
+     <label>
+        <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro.
+     </label>
+     <br>
+     <label>
+        <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> Adulto.
+     </label>
+
+ <!--Form con casillas de verificación-->
+  <p>¿Qué tipo de personalidad tiene tu gato?</p>
+  <label>
+     <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked>Enojón.
+  </label>
+ <br>
+ <label>
+    <input id="perezoso" type="checkbox" value="perozoso" name="personalidad">Perezoso.
+ </label>
+ <br>
+ <label>
+    <input id="alegre" type="checkbox" value="alegre" name="personalidad">Alegre.
+ </label>
+ </form>
+
+ </body>
+
+ <footer>
+ <p><small>Esta página fue creada durante el bootcamp de <a href= "https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO.</a></small></p>
+ </footer>
+</html>
+<!--Comentario-->

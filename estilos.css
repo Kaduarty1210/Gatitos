@@ -1,0 +1,30 @@
+body{
+   background-color: #dad4c6; 
+   color: #242221;
+   font-family: 'Playfair', serif;
+}
+
+h3 {
+   color: #4e4f3b;
+   font-size: 25px;
+}
+ 
+h1 {
+   color: #9f7996;
+   text-align: center;
+}
+
+img{
+   width: 400px;
+   height: 250px;
+   border-style:outset;
+   border-color: #9f7996;
+   margin-left: 50px;
+   margin-bottom: 30px;
+   padding: 5px;
+}
+
+a, small {
+   color:#c8a4a3;
+}
+/*Esto es un comentario*/
